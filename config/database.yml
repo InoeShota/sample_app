@@ -1,0 +1,15 @@
+default: &default
+  adapter: mysql2
+  encoding: utf8mb4
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  username: shota  # ここを 'root' に変更
+  password: 6hrhr11yki7  # mysql_secure_installation で設定したパスワード
+  host: localhost
+
+development:
+  <<: *default
+  database: sample_app_development
+
+test:
+  <<: *default
+  database: sample_app_test
