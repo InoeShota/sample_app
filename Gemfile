@@ -29,7 +29,7 @@ gem "cssbundling-rails"
 
 # JSON構築
 gem "jbuilder"
-
+gem 'importmap-rails'
 # ウィンドウをグローバルに使用して、メモリ使用量を削減
 gem "bootsnap", require: false
 
