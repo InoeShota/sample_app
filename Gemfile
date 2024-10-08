@@ -11,7 +11,8 @@ gem "mysql2", "~> 0.5"
 
 # アプリケーションサーバー
 gem "puma", "~> 5.0"
-
+gem "bootstrap-sass",  "3.4.1"
+gem 'sassc-rails'
 # アセットパイプライン
 gem "sprockets-rails"
 
